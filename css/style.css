@@ -12,3 +12,19 @@
 body{
     font-family: 'Epilogue', sans-serif;
 }
+
+.container{
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1200px;
+}
+.nav__hamburguer{
+    width: 30px;
+    height: 50px;
+    background-image: url("../images/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
